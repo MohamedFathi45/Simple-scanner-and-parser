@@ -40,6 +40,10 @@ fun getNextToken():String{
     }
 }
 
+fun AddedFunction(){
+   println("Added Function");   
+}
+
 fun parseStatmentSequence(){
     if(getCrrentToken() == "assign-statment") {
         match("assign-statment")
