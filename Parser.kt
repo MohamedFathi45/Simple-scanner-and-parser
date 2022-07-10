@@ -107,6 +107,8 @@ fun parseFactor() {
 }
 
 fun parseDeclarationStament(){
+
+
     match("data-type");
     match("identifier");
 }
