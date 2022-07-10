@@ -44,6 +44,10 @@ fun AddedFunction(){
    println("Added Function");   
 }
 
+fun newFucnction(){
+  println("This is new Function);
+}
+
 fun parseStatmentSequence(){
     if(getCrrentToken() == "assign-statment") {
         match("assign-statment")
